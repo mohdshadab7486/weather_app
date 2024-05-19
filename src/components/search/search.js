@@ -17,6 +17,7 @@ const Search = ({ onSearchChange }) => {
       };
     } catch (error) {
       console.error(error);
+      console.log("Shadab")
       return {
         options: [],
       };
